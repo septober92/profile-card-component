@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 *,
-::before,
-::after {
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,6 +13,9 @@
   --very-dark-desaturated-blue: hsl(229, 23%, 23%);
   --dark-grayish-blue: hsl(227, 10%, 46%);
   --dark-gray: hsl(0, 0%, 59%);
+}
+
+html {
   font-size: 18px;
 }
 
@@ -99,6 +102,7 @@ ul {
 }
 
 footer {
+  font-size: 0.7rem;
   color: var(--very-dark-desaturated-blue);
   text-align: center;
   padding: 5px 0;
