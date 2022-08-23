@@ -97,10 +97,20 @@ ul {
   margin-bottom: 6px;
   margin-top: 28px;
 }
-.attribution {
-  font-size: 11px;
+
+footer {
+  color: var(--very-dark-desaturated-blue);
   text-align: center;
+  padding: 5px 0;
+  width: 100%;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+
+footer a {
+  color: var(--dark-cyan);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
